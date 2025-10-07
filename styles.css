@@ -1,0 +1,114 @@
+/* === Estilos generales === */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* === Encabezado === */
+#header {
+    text-align: center;
+    background-color: #6C5B7B;
+    color: #F8B195;
+    padding: 40px;
+}
+
+#header h1 {
+    font-size: 2.5em;
+}
+
+#header h3 {
+    font-size: 1.3em;
+}
+
+/* === Menú lateral === */
+#enlaces {
+    float: left;
+    width: 15%;
+    background-color: #355C7D;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#enlaces h3 {
+    color: #00fd0d;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+#enlaces ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#enlaces li {
+    margin-bottom: 10px;
+}
+
+#enlaces a {
+    color: #F8B195;
+    text-decoration: none;
+}
+
+#enlaces a:hover {
+    text-decoration: underline;
+}
+
+/* === Contenido principal === */
+#contenido {
+    margin-left: 20%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#contenido h3 {
+    color: #6C5B7B;
+    margin-top: 20px;
+}
+
+#contenido p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* === Sección de comentaristas === */
+#comentarios {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#comentarios h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #F8B195;
+}
+
+#comentarios ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* === Pie de página === */
+#footer {
+    clear: both;
+    text-align: center;
+    background-color: #6C5B7B;
+    color: #F8B195;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
